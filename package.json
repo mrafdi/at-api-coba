@@ -1,0 +1,17 @@
+{
+  "name": "at-api-coba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./__tests__"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  }
+}
