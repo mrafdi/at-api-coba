@@ -7,16 +7,16 @@ const getAllColor = () => api.get(`/api/unknown`)
     .set('Content-Type', 'application/json')
     .set('Accept', 'application/json');
 
-const getSingleColor = (page) => api.get(`/api/unknown/2`)
+const getSingleColor = () => api.get(`/api/unknown/2`)
     .set('Content-Type', 'application/json')
     .set('Accept', 'application/json');
 
-const getUserNotFound = () => api.get(`/api/users/23`)
+const getColorNotFound = (number) => api.get(`/api/unknown/${number}`)
     .set('Content-Type', 'application/json')
     .set('Accept', 'application/json');    
 
 module.exports = {
     getAllColor,
     getSingleColor,
-    getUserNotFound
+    getColorNotFound
 }
