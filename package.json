@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./__tests__/getColor.js"
+    "test": "jest ./__tests__/ralaliTest/getMovie.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.0.0",
+    "git": "^0.1.5",
     "jest": "^24.8.0",
     "supertest": "^4.0.2"
   }
